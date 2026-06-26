@@ -1,0 +1,30 @@
+# ClickWheels
+
+ClickWheels is a lightweight tool that automatically performs mouse clicks at customizable intervals, designed for clicker and idle games.
+
+## Features
+- Start and stop clicking with the hotkey T
+- Adjust the click interval from the on-screen slider
+
+## Requirements
+Make sure Python is installed, then install the required packages:
+
+```bash
+pip install pynput pyautogui Pillow
+```
+
+## How to Run
+1. Open a terminal in the project folder.
+2. Run the app:
+
+```bash
+python ClickWheels.py
+```
+
+3. Use the GUI controls or press T to toggle clicking.
+
+## Notes
+- The app uses a small keyboard listener, so it can be toggled quickly while working.
+- On Windows, the program will try to relaunch itself with pythonw.exe so only the application window is shown.
+
+Enjoy using ClickWheels!
