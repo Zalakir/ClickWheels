@@ -12,9 +12,9 @@ ClickWheels is a lightweight tool that automatically performs mouse clicks at cu
 Make sure Python is installed, then install the required packages:
 
 Bash:
-pip install pynput 
-pip install pyautogui 
-pip install Pillow
+- pip install pynput
+- pip install pyautogui
+- pip install Pillow
 
 ## How to Run
 1. Open the project folder.
